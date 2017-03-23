@@ -1,0 +1,2 @@
+2016-12-13 14:37:33,496 INFO  bigdata.analysis.scala.console.Console$ [main] - Server starting >>>>>>>>>>>>>>>>>>>>. 
+2016-12-13 14:37:33,718 INFO  bigdata.analysis.scala.console.Runner$ [main] - SPARK-HOME is:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>/opt/cloudera/parcels/CDH-5.7.2-1.cdh5.7.2.p0.18/lib/spark
