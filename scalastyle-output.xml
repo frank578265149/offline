@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/frank/IdeaProjects/tracing-source/src/test/scala/bigdata/analysis/scala/hbase/HBPEventsSuite.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="0" line="80" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="39" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="9" line="42" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="6" line="62" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="4" line="76" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="0" line="15" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+  <error column="114" line="61" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+ </file>
+ <file name="/home/frank/IdeaProjects/tracing-source/src/test/scala/bigdata/analysis/scala/kafka/Testkafka.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="4" line="35" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+  <error column="10" line="39" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/frank/IdeaProjects/tracing-source/src/test/scala/bigdata/analysis/scala/hbase/Testrddhbase.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="10" line="35" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/frank/IdeaProjects/tracing-source/src/test/scala/bigdata/analysis/scala/kafka/Testlinekafka.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="39" line="16" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/frank/IdeaProjects/tracing-source/src/test/scala/bigdata/analysis/scala/hbase/TestUtil.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="41" line="13" source="org.scalastyle.scalariform.SpacesAfterPlusChecker" severity="warning" message="There should be a space after the plus (+) sign"/>
+  <error column="0" line="25" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="41" line="13" source="org.scalastyle.scalariform.SpacesBeforePlusChecker" severity="warning" message="There should be a space before the plus (+) sign"/>
+  <error column="6" line="12" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="7" line="17" source="org.scalastyle.scalariform.ForBraceChecker" severity="warning" message="Use braces in for comprehensions"/>
+ </file>
+ <file name="/home/frank/IdeaProjects/tracing-source/src/test/scala/bigdata/analysis/scala/hbase/RegexSuite.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="0" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="4" line="13" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+ <file name="/home/frank/IdeaProjects/tracing-source/src/test/scala/bigdata/analysis/scala/BaseTest.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="23" line="31" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="warning" message="Whitespace at end of line"/>
+  <error column="9" line="48" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+  <error column="14" line="55" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+  <error column="10" line="88" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+  <error column="6" line="46" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="6" line="63" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"/>
+  <error column="0" line="18" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="warning" message="Insert a space after the start of the comment"/>
+ </file>
+</checkstyle>
