@@ -66,7 +66,17 @@ object Utils extends  Logging{
   def classIsLoadable(clazz:String):Boolean={
     Try{ Class.forName(clazz,false,getContextOrSparkClassLoader)}.isSuccess
   }
+  def isExistOnHcfs(hcfsDir:String,conf:Configuration):Boolean={
+    try{
+      val hdfs=getHadoopFileSystem(hcfsDir,conf)
+      hdfs.exists(new Path(hcfsDir)) && hdfs.isDirectory(new Path(hcfsDir))
+    }catch{
+      case e:IOException=>
+        log.info("IoException")
+        false
+    }
 
+  }
   /**
     * Return a Hadoop FileSystem with the scheme encoded in the given path.
     */
@@ -316,6 +326,12 @@ object Utils extends  Logging{
     }
   }
 
+
+  /**
+    *
+    * @param source
+    * @param dest
+    */
   private def copyRecursive(source: File, dest: File): Unit = {
     if (source.isDirectory) {
       if (!dest.mkdir()) {
